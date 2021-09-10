@@ -1,3 +1,5 @@
+<?php
+
 function ap( $array ) {
 
 	if( current_user_can( 'editor' ) || current_user_can( 'administrator' ) ) {
@@ -6,3 +8,8 @@ function ap( $array ) {
 		echo "</pre>";
 	}
 }
+
+function debugging() {
+	
+}
+?>
